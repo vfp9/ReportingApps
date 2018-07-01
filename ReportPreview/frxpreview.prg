@@ -72,7 +72,7 @@ local cErrorMsg, iRetval
 cErrorMsg = message() 
 
 cErrorMsg = m.cErrorMsg + chr(13) + ;
-			"Line " + transform(m.iLine) + " in " + m.cMethod + "()"
+			"ÐÐ " + transform(m.iLine) + " ÔÚ " + m.cMethod + "()"
 
 if not empty( message(1) )
 	cErrorMsg = m.cErrorMsg + ":" + chr(13) + message(1) 
@@ -90,9 +90,9 @@ endif
 THIS.errorText = m.cErrorMsg
 
 if DEBUG_SUSPEND_ON_ERROR
-	cErrorMsg = m.cErrorMsg + chr(13)+chr(13) + "Do you want to suspend execution?"
+	cErrorMsg = m.cErrorMsg + chr(13)+chr(13) + "ÄãÏëÔÝÍ£Ö´ÐÐÂð£¿"
 
-	iRetval = messagebox( m.cErrorMsg, 3+16+512, DEFAULT_MBOX_TITLE_LOC + " Error" )
+	iRetval = messagebox( m.cErrorMsg, 3+16+512, DEFAULT_MBOX_TITLE_LOC + " ´íÎó" )
 	do case
 	case m.iRetVal = 6 && yes
 		this.suspended = .T.
@@ -102,7 +102,7 @@ if DEBUG_SUSPEND_ON_ERROR
 
 	endcase
 else
-	=messagebox( m.cErrorMsg, 0+16, DEFAULT_MBOX_TITLE_LOC + " Error" )
+	=messagebox( m.cErrorMsg, 0+16, DEFAULT_MBOX_TITLE_LOC + " ´íÎó" )
 	this.cancelled = .T.
 endif
 
