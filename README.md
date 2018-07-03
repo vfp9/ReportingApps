@@ -26,7 +26,7 @@ Visual FoxPro 9 的报表默认使用的应用程序。 包括报表输出引擎
 **2012.02.05 释放**  
 此版本修复了Report Builder.APP中的两个错误。 详情参阅 <a href="http://doughennig.blogspot.com/2012/02/updating-vfpx-reportbuilderapp.html" target="_blank">http://doughennig.blogspot.com/2012/02/updating-vfpx-reportbuilderapp.html</a>。
 
-**2009.05.25 Release**  
+**2009.05.25 释放**  
 此版本提高了程序的性能。当使用 SP2 新的特性（旋转、动态颜色等）时，程序做了一些更改以限制额外的开销。进度条也被限制了更新的次数。最终结果是当使用进度条或在报表控件上使用新的动态/高级特性时，输出速度提高 20% - 400% 。
 
 ReportOutput 性能：更改了Therm bar，每隔0.3秒更新一次，而不是每个细节带区。
