@@ -1,6 +1,7 @@
 # Reporting Apps
 
 **xinjie 翻译于 2018.07.03**
+
 **鸣谢：[龙岩耐思](http://www.fjlynice.com/)**
 
 Visual FoxPro 9 的报表默认使用的应用程序。 包括报表输出引擎，预览容器和默认的报表生成器应用程序，以及报表设计器事件处理程序的框架。
