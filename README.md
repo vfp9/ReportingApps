@@ -16,7 +16,7 @@ Visual FoxPro 9 的报表默认使用的应用程序。 包括报表输出引擎
 
 **2018.07.03 释放**
 
-修改了 .H 文件。通过编辑 .H 文件可增加多语钟支持。
+修改了 .H 文件。通过编辑 .H 文件可增加多语种支持。
 
 Now, you can compile your native version of the app and just edit .H file.
 
