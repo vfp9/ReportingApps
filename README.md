@@ -14,6 +14,10 @@ Visual FoxPro 9 的报表默认使用的应用程序。 包括报表输出引擎
 
 * ReportPreview.APP
 
+**2018.07.03 释放**
+修改了 .H 文件。通过编辑 .H 文件可增加多语钟支持。
+Now, you can compile your native version of the app and just edit .H file.
+
 **2014.07.04 释放**  
 此版本修复了ReportOutput.app和ReportBuilder.app中的错误，该错误无法正确处理更高的DPI显示（感谢Joel Leach）。
 
